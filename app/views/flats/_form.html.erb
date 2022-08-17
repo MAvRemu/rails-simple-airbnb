@@ -1,0 +1,15 @@
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+    <%= simple_form_for(@flat) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :description %>
+    <%= f.input :price_per_night %>
+    <%= f.input :number_of_guests %>
+    <%= f.input :url %>
+    <%= f.submit %>
+    <% end %>
+    </div>
+  </div>
+</div>

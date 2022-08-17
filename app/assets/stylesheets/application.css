@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ .card-fill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+
+ .card-link {
+  text-decoration: none;
+  color: white;
+ }
